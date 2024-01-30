@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/5jewe50doajnrckc?svg=true)](https://ci.appveyor.com/project/EliotJones/pragmaticsegmenternet)
 
-<img src="https://raw.githubusercontent.com/UglyToad/PragmaticSegmenterNet/master/logo.png" width="128" height="128" />
+<img src="https://raw.githubusercontent.com/natoop/PragmaticSegmenterNet/master/logo.png" width="128" height="128" />
 
 This project is a direct port of [Pragmatic Segmenter](https://github.com/diasks2/pragmatic_segmenter) which provides rule-based sentence 
 boundary detection.
