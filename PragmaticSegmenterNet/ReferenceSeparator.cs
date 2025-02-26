@@ -6,8 +6,9 @@
     {
         private static readonly char[] TrimChars = {'[', ']'};
         //private static readonly Regex ReferenceRegex = new Regex(@"(?<=[^\d\s])(\.|∯)((\[(\d{1,3},?\s?-?\s?)*\b\d{1,3}\])+|((\d{1,3}\s?)*\d{1,3}))(\s)(?=[A-Z])");
-        private static readonly Regex ReferenceRegex = new Regex(@"(?<=[^\d\s])[.∯](?:\[\d{1,3}(?:[,\s]-?\s?\d{1,3})*\]|\d{1,3}(?:\s\d{1,3})*)\s(?=[A-Z])");
         //private static readonly Regex ReferenceRegex = new Regex(@"(?<=[^\d\s])(?:\.|∯)(?:\[\d{1,3}(?:[,\s-]+\d{1,3})*\]|(?:\d{1,3}\s+)*\d{1,3})\s(?=[A-Z])");
+
+        private static readonly Regex ReferenceRegex = new Regex(@"(?<=[^\d\s])[.∯](?:\[\d{1,3}(?:[,\s]-?\s?\d{1,3})*\]|\d{1,3}(?:\s\d{1,3})*)\s(?=[A-Z])");
 
         public static string SeparateReferences(string text)
         {
